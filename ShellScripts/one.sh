@@ -1,3 +1,5 @@
+# Write a script to check whether a number is even or odd
+
 echo -n "Enter a number: "
 read n
 if [ $((n%2)) -eq 0 ]; then

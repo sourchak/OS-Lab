@@ -1,3 +1,5 @@
+# Write a script to remove a string from a list of strings
+
 read -p "Enter a list of strings: " -a list
 
 echo -n "Strings in the list: "

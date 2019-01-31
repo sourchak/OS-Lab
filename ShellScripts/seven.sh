@@ -1,3 +1,5 @@
+# Write a script to find the greatest of three numbers
+
 read -p "Enter three numbers: " -a nums
 
 ( [[ ${nums[0]} -ge ${nums[1]} ]] && [[ ${nums[0]} -ge ${nums[2]} ]] && echo "The largest is: ${nums[0]}" ) \

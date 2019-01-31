@@ -1,3 +1,5 @@
+# Write a script to print prim numbers upto a given number
+
 read -p "Enter the number upto which prime numbers are to be printed: " n
 
 declare -a primes   #stores the values of the primes

@@ -1,3 +1,5 @@
+# Write a script to swap the values of two variables
+
 read -p "Enter the first number: " a
 read -p "Enter the second number: " b
 

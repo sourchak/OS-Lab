@@ -1,3 +1,5 @@
+# Write a program to check for leap year
+
 echo -n "Enter a year: "
 read year
 

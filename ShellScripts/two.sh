@@ -1,3 +1,5 @@
+# Write a script to print n (input from user) terms of the fibonacci series
+
 echo -n "Enter the number of terms of the fibonacci sequence to be printed: "
 read n
 a=0

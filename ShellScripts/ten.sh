@@ -1,3 +1,4 @@
+# Write a script to print the multiplication table of an input number
 
 echo -n "Enter a number: "
 read num

@@ -1,3 +1,5 @@
+# Write a script to input an array of numbers and delete a number at a given index
+
 echo -n "Enter an array:"
 read -a arr
 echo -n "The array is: "

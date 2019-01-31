@@ -1,3 +1,5 @@
+# Write a script to run a menu driven calculator
+
 i="y"
 sum=0
 echo -n "Enter the first number: "
