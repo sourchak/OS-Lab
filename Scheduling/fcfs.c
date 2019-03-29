@@ -60,8 +60,8 @@ int main()
     }
     printf("Order:");
     for(i=0;i<n;i++)
-        printf("%s\t",order[i]);
-    printf("\nID\tBT\tFT\tTT\tWT\n");//ID   Burst-Time  Finish-Time Turn-around-time    Waiting-time
+        printf("%s\t",order[i]);  
+    printf("\n\033[4mID\tBT\tFT\tTT\tWT\n\033[0m");//ID   Burst-Time  Finish-Time Turn-around-time    Waiting-time
     for(i=0;i<n;i++)
         printf("%s\t%d\t%d\t%d\t%d\n",p[i].id,p[i].bt,p[i].ft,p[i].ft-p[i].at,p[i].ft-p[i].at-p[i].bt);
 }
