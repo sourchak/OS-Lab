@@ -1,3 +1,5 @@
+// First Come First Served or First In First Out
+
 #include<stdio.h>
 #include<limits.h>
 #include<string.h>
@@ -8,7 +10,7 @@ struct process
     char id[10];
     int at,bt,ft;
     int finished;
-} *p; //p will have to be replaced by a pointer to struct process if you want arbitary number of processes
+} *p; 
 
 int t=0;
 int n=0;
@@ -52,7 +54,7 @@ int main()
             t+=p[P].bt;
             p[P].ft=t;
             order[i]=(char*)calloc(10,sizeof(char));
-            strcpy(order[i],p[P].id);
+            strcpy(order[i],p[P].id); //copies strings from first argument to second arguement.
             i++;
         }
     }

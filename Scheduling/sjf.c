@@ -1,3 +1,5 @@
+// Shortest Job First
+
 #include<stdio.h>
 #include<limits.h>
 #include<stdlib.h>
@@ -52,7 +54,7 @@ int main()
             t+=p[P].bt;
             p[P].ft=t;
             order[i]=(char*)calloc(10,sizeof(char));
-            strcpy(order[i],p[P].id);
+            strcpy(order[i],p[P].id); //copies strings from first arguement to second arguement
             i++;
         }
     }
