@@ -1,4 +1,4 @@
-# Write a script to print prim numbers upto a given number
+# Write a script to print prime numbers upto a given number
 
 read -p "Enter the number upto which prime numbers are to be printed: " n
 
